@@ -1,0 +1,9 @@
+# Git Ignore Rules for Java project
+
+# Exclude IntelliJ idea Files and Folder
+
+
+# Exclude compiled code
+target/
+
+# Exclude tests as these are Learning exercises
