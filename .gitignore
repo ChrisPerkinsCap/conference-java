@@ -1,9 +1,13 @@
 # Git Ignore Rules for Java project
 
 # Exclude IntelliJ idea Files and Folder
-
+.idea/
 
 # Exclude compiled code
 target/
 
 # Exclude tests as these are Learning exercises
+test/
+
+# Exclude MacOs File System Metadata
+.DS_Store
