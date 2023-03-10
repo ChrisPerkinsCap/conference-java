@@ -1,13 +1,17 @@
-package org.pluralsight.java.service;
+package org.pluralsight.service;
 
-import org.pluralsight.java.model.Speaker;
-import org.pluralsight.java.repository.SpeakerRepository;
+import org.pluralsight.model.Speaker;
+import org.pluralsight.repository.SpeakerRepository;
 
 import java.util.List;
 
 public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repository;
+
+    public SpeakerServiceImpl(SpeakerRepository speakerRepository) {
+        repository = speakerRepository;
+    }
     @Override
     public List<Speaker> findAll() {
 

@@ -1,4 +1,4 @@
-package org.pluralsight.config.model;
+package org.pluralsight.model;
 
 public class Speaker {
 
