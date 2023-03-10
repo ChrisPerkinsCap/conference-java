@@ -1,7 +1,6 @@
 package org.pluralsight.config.repository;
 
-import org.pluralsight.model.Speaker;
-import org.pluralsight.repository.SpeakerRepository;
+import org.pluralsight.config.model.Speaker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,8 +13,8 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
         Speaker speaker = new Speaker();
 
-        speaker.setFirstName("Dave");
-        speaker.setLastname("Hedgehog");
+        speaker.setFirstName("Doogle");
+        speaker.setLastname("McDermot");
 
         speakers.add(speaker);
 

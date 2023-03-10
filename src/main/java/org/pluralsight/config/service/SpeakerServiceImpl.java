@@ -1,8 +1,7 @@
 package org.pluralsight.config.service;
 
-import org.pluralsight.model.Speaker;
-import org.pluralsight.repository.SpeakerRepository;
-import org.pluralsight.service.SpeakerService;
+import org.pluralsight.config.model.Speaker;
+import org.pluralsight.config.repository.SpeakerRepository;
 
 import java.util.List;
 
