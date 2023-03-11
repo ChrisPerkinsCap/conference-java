@@ -1,6 +1,6 @@
-package org.pluralsight.java.repository;
+package org.pluralsight.repository;
 
-import org.pluralsight.java.model.Speaker;
+import org.pluralsight.model.Speaker;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,9 @@
-package org.pluralsight.java;
+package org.pluralsight;
 
-import org.pluralsight.java.repository.HibernateSpeakerRepositoryImpl;
-import org.pluralsight.java.repository.SpeakerRepository;
-import org.pluralsight.java.service.SpeakerService;
-import org.pluralsight.java.service.SpeakerServiceImpl;
+import org.pluralsight.repository.HibernateSpeakerRepositoryImpl;
+import org.pluralsight.repository.SpeakerRepository;
+import org.pluralsight.service.SpeakerService;
+import org.pluralsight.service.SpeakerServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

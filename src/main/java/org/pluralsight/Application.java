@@ -1,6 +1,6 @@
-package org.pluralsight.java;
+package org.pluralsight;
 
-import org.pluralsight.java.service.SpeakerService;
+import org.pluralsight.service.SpeakerService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
