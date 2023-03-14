@@ -7,17 +7,18 @@ import java.util.List;
 
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
-    @Override
-    public List<Speaker> findAll() {
-        List<Speaker> speakers = new ArrayList<>();
+    private List<Speaker> speakers = new ArrayList<>();
 
+    public HibernateSpeakerRepositoryImpl() {
         Speaker speaker = new Speaker();
 
         speaker.setFirstName("John");
         speaker.setLastname("Little");
 
         speakers.add(speaker);
-
-        return speakers;
+    }
+    @Override
+    public List<Speaker> findAll() {
+        return this.speakers;
     }
 }
