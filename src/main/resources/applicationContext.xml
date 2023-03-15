@@ -5,7 +5,7 @@
 
     <bean name="speakerRepository" class="org.pluralsight.repository.HibernateSpeakerRepositoryImpl" />
 
-    <bean name="speakerService" class="org.pluralsight.service.SpeakerServiceImpl" autowire="constructor">
+    <bean name="speakerService" class="org.pluralsight.service.SpeakerServiceImpl" autowire="byType">
 <!--        <constructor-arg index="0" ref="speakerRepository" />-->
 
     </bean>
