@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import java.util.List;
 @Service("speakerService")
-@Profile("prod")
+@Profile("dev")
 public class SpeakerServiceImpl implements SpeakerService {
 
     private SpeakerRepository repository;
